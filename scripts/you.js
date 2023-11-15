@@ -54,7 +54,8 @@ function changeTitle(title) {
 }
 
 function openWindow(url) {
-	aWindow = window.open('','TimeTableTimer','status=no,directories=no,location=no,resizable=no,menubar=no,width=700,height=500,toolbar=no'); var iframe = aWindow.document.createElement('iframe'); iframe.style="position:fixed;width:100vw;height:100vh;top:0px;left:0px;right:0px;bottom:0px;z-index:2147483647;background-color:white;border:none;";iframe.src = "https://blobby-boi.github.io/youareanidiot/lol.html";win.document.body.appendChild(iframe);
+	aWindow = window.open('','TimeTableTimer','status=no,directories=no,location=no,resizable=no,menubar=no,width=700,height=500,toolbar=no');
+	var iframe = aWindow.document.createElement('iframe'); iframe.style="position:fixed;width:100vw;height:100vh;top:0px;left:0px;right:0px;bottom:0px;z-index:2147483647;background-color:white;border:none;" iframe.src = "https://blobby-boi.github.io/youareanidiot/lol.html"; win.document.body.appendChild(iframe);
 }
 
 function proCreate() {	
